@@ -95,6 +95,9 @@ public class Cart <T extends Food>{
 
     }
 
+    /**
+     * балансировка с использованием streamAPI
+     */
     public void atomicCardBalancing()
     {
         AtomicBoolean proteins = new AtomicBoolean(false);
@@ -137,9 +140,10 @@ public class Cart <T extends Food>{
             System.out.println("__________________________________________________________________");
             System.out.println("Корзина сбалансирована по БЖУ.");
         }
-        else
+        else {
             System.out.println("__________________________________________________________________");
             System.out.println("Невозможно сбалансировать корзину по БЖУ.");
+        }
     }
 
 

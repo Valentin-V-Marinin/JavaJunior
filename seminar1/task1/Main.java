@@ -24,7 +24,7 @@ public class Main {
         System.out.println("Альтернативное среднее: " +
                 list.stream()
                             .filter(n -> n%2 == 0)
-                            .mapToInt(a -> a)
+                            .mapToInt(n -> n)
                             .average().orElse(0));
 
         // альтернатива №2
