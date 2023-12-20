@@ -18,6 +18,7 @@ public class Main {
     public static void main(String[] args) {
 
         DataBase dataBase = new DataBase("hibernate.cfg.xml");
+
         try {
             // создаём программу обучения из 5 курсов
             int PROGRAM_NUMBER_COURSES = 5;

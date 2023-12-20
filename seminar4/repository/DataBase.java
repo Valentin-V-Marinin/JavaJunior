@@ -97,7 +97,7 @@ public class DataBase implements  Repository<Course, Integer>{
         String sql = "CREATE TABLE IF NOT EXISTS schoolDB.courses " +
                         "(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, " +
                         "title VARCHAR(50) NOT NULL, " +
-                        "duration INT NOT NULL)";
+                        "duration INT NOT NULL) ";
 
         Query query = session.createSQLQuery(sql).addEntity(Course.class);
         query.executeUpdate();

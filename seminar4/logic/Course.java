@@ -13,7 +13,6 @@ public class Course {
 
     private static final String[] titles = new String[] { "JavaJunior", "JavaDevelopmentKit", "JavaBasics", "ObjectOrientedProgramming", "DataBase&SQL", "Containers&Docker", "OperatingSystems", "ProgramSoftwareArchitecture"};
     private static final Random random = new Random();
-
     private static final int MAX_NUMBER_COURSES = 12;
     private static final int MIN_NUMBER_COURSES = 4;
 

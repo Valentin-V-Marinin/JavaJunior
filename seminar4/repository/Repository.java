@@ -8,7 +8,6 @@ public interface Repository<T, TId> {
     void update(T item);
     void delete(T item);
     T getById(TId id);
-
     void addAll(List<T> list);
 
 }
